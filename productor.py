@@ -11,5 +11,9 @@ class Productor(threading.Thread): # Clase Productor hereda de la clase Thread
         self.mutex = mutex
         self.vacio = vacio
         self.lleno = lleno
+    
+    def run(self): # Método que se ejecuta al iniciar el hilo
+        while True:
+            
 
     
