@@ -3,3 +3,7 @@
 import threading
 import time
 
+
+#creaamos una lista vacia
+buffer = [] #esto lo hacemos para que el productor pueda agregar elementos a la lista
+buffer_size = 5 #tamaño del buffer
